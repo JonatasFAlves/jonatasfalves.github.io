@@ -1,0 +1,17 @@
+body {
+    background: #263238;
+    text-align: center;
+}
+
+img {
+    margin: 3% auto;
+    width: 20%;
+    border-radius: 50%;
+    border: 4px solid #aaa;
+}
+
+.main-text {
+    font-size: 20px;
+    color: white;
+    margin: 6px auto;
+}
