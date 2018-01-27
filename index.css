@@ -7,3 +7,19 @@
     display: flex;
     justify-content: center;
 }
+
+@media(max-width: 499px) {
+    .button {
+        margin-bottom: 22px;
+    }
+    .topics {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 549px) {
+    .button {
+        height: 30px;
+        padding: 1%;
+    }
+}
