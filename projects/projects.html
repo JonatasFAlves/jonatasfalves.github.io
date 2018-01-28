@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="../assets/css/global.css">
+
+    <link rel="stylesheet" href="projects.css">
+
+    <title>Projects</title>
+</head>
+
+<body>
+    <!-- Markup for Siema carousel -->
+    <div class="siema">
+        <img id="img" class="desktop-image initial-image" src="../assets/images/projects/online_training.png" alt="Me">
+        <img id="img" class="desktop-image initial-image" src="../assets/images/projects/photo_share.png" alt="Me">
+        <img id="img" class="desktop-image initial-image" src="../assets/images/projects/react_card.png" alt="Me">
+    </div>
+    <button class="prev"><</button>
+    <button class="next">></button>
+    <p>From time to time, i replicate some cool design ideas found in Dribbble</p>
+
+
+    <script src="../assets/js/siema.min.js"></script>
+    <script>
+        const mySiema = new Siema({
+            duration: 300
+        });
+        document.querySelector('.prev').addEventListener('click', () => mySiema.prev());
+        document.querySelector('.next').addEventListener('click', () => mySiema.next());
+    </script>
+</body>
+
+</html>

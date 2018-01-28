@@ -1,0 +1,9 @@
+.desktop-image{
+    width: 50%;
+}
+
+@media (max-width: 600px) {
+    .desktop-image {
+        width: 90%;
+    }
+}
