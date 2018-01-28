@@ -6,12 +6,15 @@ body {
     font-size: 17px;
 }
 
+.initial-image {
+    border: 3px solid #484b63;
+    margin-top: 3%;
+}
+
 .rounded-image{
     width: 220px;
     height: 220px;
-    border: 3px solid #484b63;
     border-radius: 50%;
-    margin-top: 3%;
 }
 
 .button {
