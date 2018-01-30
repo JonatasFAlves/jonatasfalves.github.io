@@ -10,7 +10,7 @@ function changeCarouselInfo() {
         document.querySelector('.tech-info').innerHTML = 'Working with Java and MySQL';
     } else if (this.currentSlide <= 3) {
         document.querySelector('.info').innerHTML = 'The MeuColetivo app helps public transportation users be heard.';
-        document.querySelector('.tech-info').innerHTML = 'Working with Web development';
+        document.querySelector('.tech-info').innerHTML = 'Working with Web development and Bootstrap';
     } else {
         document.querySelector('.info').innerHTML = 'In my spare time, i make some css replications too, mostly from Dribbble. Working with web technologies.';
         document.querySelector('.tech-info').innerHTML = 'Working with Html, CSS';
