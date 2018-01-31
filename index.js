@@ -9,5 +9,5 @@ function displayNextImage() {
 }
 
 function startTimer() {
-    setInterval(displayNextImage, 5000);
+    setInterval(displayNextImage, 3000);
 }
